@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.DashboardFragment">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BCF5BC"
+        android:gravity="center"
+        android:text="Dashboard Fragment" />
+
+
+    <com.devdigital.fragmentstatemanager.components.NewEditText
+        android:id="@+id/newFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp" />
+
+    <com.devdigital.fragmentstatemanager.components.NewEditText
+        android:id="@+id/newSecondName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNextChild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Next Child" />
+</LinearLayout>

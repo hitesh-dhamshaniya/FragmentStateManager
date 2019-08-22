@@ -14,5 +14,7 @@
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edtBox"
         android:layout_width="match_parent"
+        android:lines="1"
+        android:tooltipText="@string/app_name"
         android:layout_height="wrap_content" />
 </LinearLayout>
